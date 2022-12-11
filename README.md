@@ -3,6 +3,10 @@
 ## Project setup
 ```
 npm install
+npm install axios
+npm install vue-signature-pad
+npm install vee-validate
+npm install yup
 ```
 
 ### Compiles and hot-reloads for development
