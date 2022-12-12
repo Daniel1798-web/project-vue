@@ -239,7 +239,7 @@ h1{
   width: 500px;
   height: 750px;
   margin: auto;
-  margin-top: 70px;
+  margin-top: 0px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
