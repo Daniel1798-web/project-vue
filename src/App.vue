@@ -30,12 +30,18 @@ methods: {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  margin: 0px;
+  padding: 0px;
 }
 
-.box{
-  border: 2px solid black;
-  width: 250px !important;
-  height: 150px !important;
-  margin: auto;
+html{
+  margin: 0px;
+  padding: 0px;
 }
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
 </style>
