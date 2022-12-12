@@ -441,6 +441,16 @@ p{
   .child{
     width: 90%;
     margin: 0px;
+    height: 100%;
+  }
+
+  .boxError{
+    height: 100px;
+    margin-top: 5px;
+  }
+
+  span{
+    margin-top: 20px;
   }
 
   .input{
@@ -455,6 +465,8 @@ p{
 
   .btnSend{
     margin-right: auto;
+    margin-bottom: 80px;
+    margin-top: 10px;
   }
 
   .help{
