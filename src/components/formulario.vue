@@ -165,7 +165,9 @@ export default {
       sendForm(){
         axios.post("https://back-pre.vercel.app/formularioVue",this.dataForm).then(datos=>{
           console.log(datos)
-         
+         this.spinnerActive = false
+         this.messageInfo = "Exito"
+
         }).catch(error =>{s
           console.log(error)
           this.messageInfo = "Error"
@@ -185,7 +187,6 @@ export default {
     this.signatureEmpty = false
     this.messageInfo = ""
     if(data){
-      
       this.dataForm.signature = data
       this.sendForm()
     }else if(isEmpty){
