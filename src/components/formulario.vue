@@ -268,6 +268,7 @@ span{
   font-weight: bold;
   text-align: end;
   margin-top: 10px;
+  color:#9e9e9e ;
 }
 
 input{
@@ -277,7 +278,7 @@ input{
   margin-left: 10px;
   border-bottom: 2px solid #ccc;
   background-color: #fff;
-  color: #9e9e9e;
+  color: black;
   width: 100%;
   text-align: center;
   font-size: 17px;
