@@ -150,9 +150,9 @@ export default {
         lastName: yup.string().min(3).required(),
         nief: yup.string().min(9).max(10).required(),
         bussinesName: yup.string().min(3).required(),
-        direction: yup.string().min(3).max(10).required(),
-        location:  yup.string().min(3).max(10).required(),
-        province: yup.string().min(3).max(10).required(),
+        direction: yup.string().min(3).max(40).required(),
+        location:  yup.string().min(3).max(40).required(),
+        province: yup.string().min(3).max(40).required(),
         email: yup.string().email().required()
 }),
 
